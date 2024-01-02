@@ -1,7 +1,7 @@
 /* место для вашего кода */
 
 header {
-  padding: 92px 24px 96px 24px;
+  padding: 92px 24px 98px 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,17 +17,18 @@ header {
 }
 
 .header__logo-image{
-  width: 148px;
-  height: 105px;
+  width: 189px;
+  height: 106px;
   position: absolute;
-  left: 454px;
-  bottom: 96px;
+  left: 455px;
+  bottom: 95px;
 }
 
 .header__menu-list {
   list-style: circle;
   display: flex;
   gap: 32px;
+  margin: auto 25px;
 }
 
 .menu-list_main {
@@ -35,7 +36,7 @@ header {
 }
 
 .menu-link { 
-  text-underline-offset: 4px;
+  text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }
 
@@ -50,9 +51,13 @@ header {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24.3px; /* 135% */
-  text-underline-offset: 4px;
+  line-height: 24.3px;
   text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.adress_header {
+  margin: -2px 60px 0px 0px;
 }
 
 .cover {
@@ -81,31 +86,43 @@ header {
 }
 
 .accent-span {
+  color: #FFF;
+  font-family: Raleway;
   font-size: 100px;
+  font-style: normal;
   font-weight: 700;
   line-height: 115%;
+  letter-spacing: 31px;
+  text-transform: uppercase;
 }
 
 .top-text {
-  padding-top: 65px;
-  padding-left: 50px;
+  padding-top: 165px;
+  padding-left: 49px;
+}
+
+.additional {
+  margin-left: -26px;
 }
 
 .center-text {
-  padding-top: 20px;
-  padding-left: 336px;
+  padding-top: 12px;
+  padding-left: 335px;
 }
 
+.additional-bottom {
+  margin-left: 28px;
+}
 .bottom-text {
-  padding-top: 20px;
+  padding-top: 6px;
   padding-right: 50px;
   padding-left: 633px;
+  padding-bottom: 0px;
 }
 
 .cover_footer {
-  
-  padding-top: 147px;
-  padding-bottom: 62px;
+  padding-top: 127px;
+  padding-bottom: 51px;
   display: flex;
   justify-content: space-between;
   padding-left: 78px;
@@ -118,6 +135,10 @@ header {
   word-spacing: 17.3px;
 }
 
+.cover-text-message {
+  margin-top: 11px;
+  letter-spacing: 0.2px;
+}
 .bet-button {
   background-color: transparent;
   border: 1px solid #fff;
@@ -186,7 +207,7 @@ header {
   content: "";
   position: absolute;
   top: 0;
-  left: 0;
+  left: -1px;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
@@ -274,6 +295,20 @@ header {
   letter-spacing: 0.2px;
 } 
 
+.about__text {
+  margin: 0px -45px 15px -16px;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.2px;
+}
+
+.about__text_second {
+  margin-top: 23px;
+}
+
 .about__column {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -284,12 +319,12 @@ header {
 .about__logo {
   grid-column-start: 1;
   grid-column-end: 2;
-  margin: 0 47px;
+  margin: 35px 0px 0px -4px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 240px;
-  height: 240px;
+  height: 241px;
   background-color: #000;
   border-radius: 50%;
 
@@ -308,7 +343,7 @@ header {
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin: 100px 0px;
+  margin: 111px 0px 102px -17px;
   text-align: left;
 }
 
@@ -327,21 +362,23 @@ header {
 
 /* Footer part */
 footer {
-  padding: 181px 50px 88px;
+  padding: 165px 50px 88px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
 }
 
 .footer__menu-list {
   list-style: none;
   text-align: center;
+  position: relative;
+  left: 17px;
   }
 
 .footer__links {
   list-style: none;
   display: flex;
-  gap: 32px;
+  gap: 48px;
 }
 
 .footer__links_images {
