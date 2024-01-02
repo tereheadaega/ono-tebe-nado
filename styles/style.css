@@ -16,7 +16,7 @@ header {
   line-height: normal;
 }
 
-.header__logo-image{
+.header__logo-image {
   width: 189px;
   height: 106px;
   position: absolute;
@@ -35,7 +35,7 @@ header {
   list-style: none;
 }
 
-.menu-link { 
+.menu-link {
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }
@@ -188,7 +188,6 @@ header {
   display: flex;
   flex-direction: column;
   width: 334px;
-  min-height: 563px;
   height: 563px;
   min-height: 100%;
   background-color: aqua;
