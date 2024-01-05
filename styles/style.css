@@ -185,7 +185,7 @@ header {
 
 .lots__card_list_item {
   display: flex;
-  flex-grow: 1
+  flex-grow: 1;
   flex-direction: column;
   width: 334px;
   height: 563px;
