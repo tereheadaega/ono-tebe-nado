@@ -34,7 +34,7 @@ header {
 
 .menu-list_main {
   list-style: none;
-  pointer-events: none 
+  pointer-events: none;
 }
 
 .menu-link {
